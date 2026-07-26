@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background: #111;
+    color: white;
+}
+
+#gameArea {
+    width: 500px;
+    height: 400px;
+    border: 3px solid white;
+    margin: auto;
+    position: relative;
+    background: #222;
+}
+
+#box {
+    width: 40px;
+    height: 40px;
+    background: red;
+    position: absolute;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
